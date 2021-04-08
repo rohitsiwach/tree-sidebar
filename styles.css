@@ -1,0 +1,48 @@
+.sidenav {
+  max-width: auto;
+  min-width: 350px;
+  max-width: fit-content;
+  background-color: #f1f1f1;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.close {
+  background-color: #cfcfcf;
+}
+
+.fa-bars {
+  padding: 2px;
+  margin-left: 4px;
+}
+
+.fa-times {
+  padding: 2px;
+  margin-right: 4px;
+  color: chocolate;
+}
+
+li button {
+  margin-left: 1em;
+  width: 3rem;
+}
+
+li {
+  width: auto;
+  display: block;
+  color: #135757;
+  padding: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 4px;
+  border-style: solid;
+  border-width: 2px;
+
+  border-color: #f1f1f1;
+}
+
+li:hover {
+  /* padding: 3px; */
+  border-style: solid;
+  border-color: lightgray;
+}

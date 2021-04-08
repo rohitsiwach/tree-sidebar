@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <script src="myscript.js"></script>
+  </head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <div class="open" id="open">
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          ><i class="fas fa-bars"></i>
+        </span>
+      </div>
+      <div class="close" style="display: none" id="close">
+        <button style="font-size: 20px; cursor: pointer" onclick="addBase()">
+          <i class="fas fa-plus">Add root level element</i>
+        </button>
+        <span
+          style="font-size: 30px; cursor: pointer; float: right"
+          onclick="openNav()"
+        >
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+
+      <div id="toggle-menu" style="display: none">
+        <!-- Div to hold Menu Elements -->
+      </div>
+    </div>
+  </body>
+</html>
